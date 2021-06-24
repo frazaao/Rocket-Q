@@ -1,0 +1,27 @@
+{
+  "name": "Rocket-Q",
+  "version": "1.0.0",
+  "description": "A Rocketseat NLW #6 Project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frazaao/Rocket-Q.git"
+  },
+  "keywords": [],
+  "author": "Matheus Paula Frazão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frazaao/Rocket-Q/issues"
+  },
+  "homepage": "https://github.com/frazaao/Rocket-Q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
