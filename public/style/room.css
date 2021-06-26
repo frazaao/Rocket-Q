@@ -171,6 +171,7 @@
     font-style: 'Poppins',sans-serif;
     font-size: 1.8rem;
     font-weight: 600;
+    color: var(--black);
 }
 
 .no-questions p + p {

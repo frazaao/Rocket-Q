@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="/style/room.css" />
 
     <script src="/scripts/main.js" defer type="module"></script>
+    
+
   </head>
   <body>
     <div id="room" class="content">
@@ -27,6 +29,13 @@
         <a href="/">
           <img src="/images/logo.svg" alt="Rocket.Q Logo" />
         </a>
+
+        <div class="toggle">
+          <img src="/images/moon.svg" alt="Tema escuro" />
+          <input type="checkbox" id="switch" name="dark-mode" />
+          <label for="switch">Toggle</label>
+          <img src="/images/sun.svg" alt="Tema claro" />
+        </div>
 
         <div class="buttons">
           <div class="button outlined" id="room-id" data-id="<%= roomId %>">
@@ -149,4 +158,5 @@
       </div>
     </div>
   </body>
+  <script src="/scripts/darkmode.js"></script>
 </html>

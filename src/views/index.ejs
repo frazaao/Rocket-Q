@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="/style/global.css" />
     <link rel="stylesheet" href="/style/home.css" />
+    <script src="/scripts/main.js" defer type="module"></script>
   </head>
   <body>
     <div id="home" class="content">
@@ -19,6 +20,13 @@
         <a href="/">
           <img src="/images/logo.svg" alt="Rocket.Q Logo" />
         </a>
+
+        <div class="toggle">
+          <img src="/images/moon.svg" alt="Tema escuro" />
+          <input type="checkbox" id="switch" name="dark-mode" />
+          <label for="switch">Toggle</label>
+          <img src="/images/sun.svg" alt="Tema claro" />
+        </div>
       </header>
 
       <div id="bg">
@@ -27,10 +35,9 @@
       </div>
 
       <main>
-        <div class="container">
-          <%- include(`parts/${page}`) %>
-        </div>
+        <div class="container"><%- include(`parts/${page}`) %></div>
       </main>
     </div>
   </body>
+  <script src="/scripts/darkmode.js"></script>
 </html>
